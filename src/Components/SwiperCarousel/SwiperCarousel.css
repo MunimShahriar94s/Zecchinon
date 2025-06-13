@@ -1,0 +1,25 @@
+.fullscreen-swiper {
+  width: 100vw;
+  height: auto;
+}
+
+.slide {
+  width: 50vw;
+  background-color: #f0f0f0;
+  font-size: 32px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide > img{
+  width: 50vw;
+}
+
+/* Make default Swiper nav buttons black */
+.swiper-button-prev,
+.swiper-button-next {
+  color: black;
+  scale: 0.5;
+}

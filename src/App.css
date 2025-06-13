@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,200..700;1,200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100..300&display=swap');
+
+*{
+  font-family: 'Lora', serif;
+}
+
+.main{
+  min-height: 400vh;
+}
+
+.vid{
+  width: 100%;
+
+}
+
+.vid > video{
+  width: 100%;
+}
+
+.pin{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 30vh;
+  background-color: transparent;
+  font-family: 'Lora', serif;
+  font-size: 3.75vw;
+  font-weight: 100;
+  padding-left: 54.25%;
+  padding-top: 16%;
+  
+
+  
+
+}
+
+.pin > span:nth-child(1){
+  color: #08090E;
+  
+  
+  
+  
+}
+.pin > span:nth-child(2){
+  color: #8A8A8A;
+  mix-blend-mode: difference;
+  
+}
+
+.vid{
+  position: relative;
+  z-index: -10;
+
+  padding-top: 27.5%;
+}
+
+.vid > .spacer{
+  height: 0vh;
+
+}
+
+section.YourMoments{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  position: relative;
+
+  height: auto;
+}
+
+section.YourMoments > div.left{
+  text-transform: uppercase;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+
+  margin-left: 2.5vw;  
+}
+
+
+
+section.YourMoments > div.right{
+  font-weight: 400;
+  font-size: 3.5vw; 
+
+  min-width: 500px;
+  width: 40vw;
+  
+
+  position: absolute;
+  right: 10vw;
+  
+}
+
+section.YourMoments > div.right{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+
+.bullet{
+  color: #DCC99D;
+  font-size: 30px;
+}
+
+
+.transition-wrapper{
+  overflow: hidden;
+  position: relative;
+}
+
+.transition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5vw;
+  margin-top: 45vh;
+  width: 175vw;
+
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+  overflow: hidden;
+  height: 50vw;
+}
+
+.transition > * {
+  flex: none;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.transition > .center {
+  width: 35vw;
+  height: 100%;
+  background-color: black;
+}
+
+.transition > .mid {
+  flex-basis: 19vw;
+  height: 50%;
+}
+
+.transition > .side {
+  flex-basis: 10vw;
+  height: 30%;
+}
+
+.transition > .side.left{
+  background-image: url(https://www.zecchinon.com/img/homepage/zecchinon-cucine-img1-L.webp);
+}
+
+.transition > .mid.left{
+  background-image: url(https://www.zecchinon.com/img/homepage/zecchinon-cucine-img2-L.webp);
+}
+
+.transition > .center{
+  background-image: url(https://www.zecchinon.com/img/homepage/zecchinon-cucine-img3-L.webp);
+}
+
+.transition > .mid.right{
+  background-image: url(https://www.zecchinon.com/img/homepage/zecchinon-cucine-img4-L.webp);
+}
+
+.transition > .side.right{
+  background-image: url(https://www.zecchinon.com/img/homepage/zecchinon-cucine-img5-L.webp);
+}
+
+
+div.galleryText{
+  position: relative;
+  bottom: 14vw;
+  left: 4vw;
+  z-index: 12;
+  width: 40vw;
+  font-size: 2vw;
+  font-weight: 100;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+section.area-proffesionisti{
+  display: flex;
+  flex-direction: column;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+
+}
+
+section.area-proffesionisti > .top{
+  display: flex;
+
+}
+
+section.area-proffesionisti > .top > .right{
+    position: relative;
+    width: 43.5vw;
+    left: 35vw;   
+}
+
+.area-proffesionisti > .bottom{
+  display: flex;
+
+  justify-content: space-between;
+  margin-top: 20%;
+}
+
+
+
+
+
+.area-proffesionisti > .bottom > .left{
+  width: 12.5vw;
+  height: 12.5vw;
+  background-image: url("https://www.zecchinon.com/img/homepage/zecchinon-kitchen-lab1-XL.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 7%;
+  background-size: 115%;
+    
+}
+
+.area-proffesionisti > .bottom > .center{
+  width: 40vw;
+  height: 30vw;
+
+  background-image: url("https://www.zecchinon.com/img/homepage/zecchinon-kitchen-lab2-M.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+
+  background-size: 115%;
+  aspect-ratio: 505 / 369;
+}
+
+
+.area-proffesionisti > .bottom > .right{
+  background-image: url("https://www.zecchinon.com/img/homepage/zecchinon-kitchen-lab3-XL.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+  width: 20vw;
+  aspect-ratio: 338 / 369;
+
+  background-size: 165%;
+ 
+}
+
+section.made-in-italy{
+  height: 175vh;
+}
+
+section.made-in-italy > div.gray-sheet{
+  position: absolute;
+  height: 175vh;
+  width: 100%;
+  background-color: black;
+  opacity: 5%;
+  z-index: -10;
+ 
+}
+
+div.badge{
+  position: relative;
+  top: 20%;
+  margin-left: 5%;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+section.made-in-italy > div.left{
+    padding-top: 7%;
+    margin-left: 45vw;
+}
+
+section.made-in-italy > div.left > div.img{
+  height: 35vw;
+  width: 50vw;
+
+  background-image: url("https://www.zecchinon.com/img/homepage/made-in-italy-kitchen-L.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin-top: 20%;
+}
+
+section.catalogi{
+  position: relative;
+}
+
+section.catalogi > .badge{
+  position: absolute;
+  z-index: 10;
+  top: -2.5vw;
+}
+
+section.prefooter {
+  overflow: hidden;
+  margin: 0;
+}
+
+section.prefooter > div.prefooterPin{
+  position: absolute;
+  z-index: 10;
+
+  font-family: 'Lora', serif;
+  font-size: 3.75vw;
+  font-weight: 100;
+
+  padding-left: 4.75%;
+  padding-top: 7%;
+}
+
+section.prefooter > div.prefooterPin > div.text div:nth-child(1){
+  color: #F7F6F1;
+}
+
+section.prefooter > div.prefooterPin div.text > div:nth-child(2){
+  color: #757575;
+}
+
+section.prefooter > img{
+  width: 100%;
+  scale: 1.05;
+  
+}
+
+.footer{
+  height: 45vh;
+  width: 100%;
+
+  background-color: black;
+
+}
+
+@media (max-width: 1250px) {
+  section.YourMoments > div.right{
+    left: 2.5vw;
+  }
+  section.area-proffesionisti > .top > .right{
+    font-size: 3vw;
+    left: 0;
+    width: 80vw;
+  }
+  
+  section.area-proffesionisti > .top{
+    font-size: 3vw;
+    flex-direction: column;
+  }  
+   
+}
