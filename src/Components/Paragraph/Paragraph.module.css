@@ -5,14 +5,14 @@
 
 .text{
     font-family: 'Inter', sans-serif;
-    font-size: 1.5rem;
+    font-size: 3.5vw;
     font-weight: 300;
     line-height: 160%; 
     
     margin-top: 2vw;
 }
 
-@media (min-width: 425px) {
+@media (min-width: 768px) {
   .text{
     font-size: 20px;
   }
