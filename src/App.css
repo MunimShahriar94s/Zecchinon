@@ -257,12 +257,12 @@ section.area-proffesionisti > .top > .right{
 }
 
 section.made-in-italy{
-  height: 175vh;
+  margin-bottom: 25vw;
 }
 
 section.made-in-italy > div.gray-sheet{
   position: absolute;
-  height: 175vh;
+  height: 125vw;
   width: 100%;
   background-color: black;
   opacity: 5%;
@@ -360,4 +360,28 @@ section.prefooter > img{
     flex-direction: column;
   }  
    
+}
+
+@media (max-width: 768px) {
+  section.made-in-italy > div.gray-sheet{
+  position: absolute;
+   width: 100%;
+  background-color: black;
+  opacity: 5%;
+  z-index: -10;
+}
+div.badge{
+  font-size: 2vw;
+}
+}
+
+@media (max-width: 500px) {
+  section.YourMoments > div.right{
+    min-width: 300px;
+    width: 90vw;
+  }
+
+  section.YourMoments > div.left{
+    font-size: 2vw;
+  }
 }

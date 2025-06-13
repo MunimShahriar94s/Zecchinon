@@ -13,3 +13,9 @@
   color: #DCC99D;
   font-size: 30px;
 }
+
+@media (max-width: 768px){
+  .bullet{
+    font-size: 2vw;
+  }
+}
