@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Navbar from "./Components/Navbar/navbar";
+import Navbar from "./Components/Navbar/Navbar";
 import Bullet from "./Components/Bullet/Bullet";
 import Paragraph from "./Components/Paragraph/Paragraph";
 import SwiperCarousel from "./Components/SwiperCarousel/SwiperCarousel"
